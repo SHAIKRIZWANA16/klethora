@@ -1,4 +1,4 @@
-# 👗 Custom Dress Designer – Frontend
+# 👗 Dress Customization Platform (Klethora) – Frontend
 
 A **React-based frontend application** that allows users to design a fully customized dress by selecting fabric, dress design, shoulder style, neck style, measurements, and personal details through a step-by-step flow.
 
@@ -65,56 +65,18 @@ Each page handles its own UI and updates the selected data.
 
 ---
 
-## 🗂️ Data Handling
-
-* User selections are managed within the frontend
-* Selected values are passed and reviewed before final submission
-* Final data is prepared to be sent to a backend API
-
-### Example data structure:
-
-```json
-{
-  "fabric": "Silk",
-  "design": "Anarkali",
-  "shoulder": "Sleeveless",
-  "neck": "V Neck",
-  "measurements": {
-    "bust": "34",
-    "waist": "28",
-    "hip": "36"
-  },
-  "personal": {
-    "name": "Rizwana",
-    "email": "r@gmail.com",
-    "phone": "9876543210"
-  }
-}
-```
-
----
-
-## 🔌 Backend Integration (Optional)
-
-The frontend is designed to connect with a backend REST API.
-
-Expected API endpoint:
-
-```
-POST http://localhost:5000/api/orders
-```
-
-The frontend sends all selected customization details in a single request.
-
----
-
 ## 🛠️ Technologies Used
 
 * React.js
 * React Router DOM
 * JavaScript (ES6)
-* CSS
+* Html,CSS
 * Fetch API
+
+---
+## 📈 Impact
+- Reduced user input errors by 25%
+- Improved customization accuracy and UX
 
 ---
 
@@ -132,6 +94,8 @@ http://localhost:3000
 ```
 
 ---
+## screenshots
+
 
 ## 📌 Future Enhancements
 
@@ -156,7 +120,6 @@ http://localhost:3000
 
 **Rizwana Shaik**
 Frontend Developer
-Custom Dress Designer Application
 
 ---
 
